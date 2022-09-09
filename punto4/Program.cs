@@ -6,19 +6,11 @@
     {
         try
         {
-           Logger.Info("Hello world");
-           Logger.Debug("pal Debug");
-           Logger.Warn("warn");
-           System.Console.ReadKey();
-        }
-        catch (Exception ex)
-        {
-           Logger.Error(ex, "Goodbye cruel world");
-        }
-
-        try 
-        {
-           Logger.Debug("pal Debug");
+           Logger.Info("inforr");
+           Logger.Debug("debug");
+           Logger.Warn("warning");
+           Logger.Fatal("fatality");
+           Logger.Trace("traceK");
            System.Console.ReadKey();
         }
         catch (Exception ex)
@@ -26,4 +18,4 @@
            Logger.Error(ex, "Goodbye cruel world");
         }
     }
-}
+}  
