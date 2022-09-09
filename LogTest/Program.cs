@@ -15,7 +15,7 @@
         }
 
 
-        try
+        try 
         {
            Logger.Debug("pal Debug");
            System.Console.ReadKey();
